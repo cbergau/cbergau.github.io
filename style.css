@@ -1,3 +1,112 @@
+* {
+    font-family: 'Barlow Condensed', sans-serif !important;
+}
+
 body {
-    background-color: #ddd;
+    background-color: #3d3d3d;
+}
+
+header {
+    background-color: #222222;
+    border-bottom: 1px solid #444;
+    border-color: #b8b8b8;
+    padding: 50px;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 2rem;
+    padding: 0 0 60px 0;
+}
+
+header img {
+    border: 1px solid #b8b8b8;
+    border-radius: 50%;
+    float: left;
+    height: 250px;
+    width: 250px;
+}
+
+header nav {
+    color: #fff;
+}
+
+header nav li {
+    display: block;
+    font-size: 1.2rem;
+    float: left;
+    padding: 0 2rem 0 0;
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section.content {
+    padding-left: 350px;
+    padding-top: 60px;
+    padding-right: 60px;
+}
+
+table.cv {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+table.cv th {
+    color: #e2e2e2;
+    border-bottom: 1px solid #313131;
+    font-weight: bold;
+    padding: 1.1rem;
+    text-align: left;
+}
+
+table.cv td {
+    color: #e2e2e2;
+    padding: 1rem;
+}
+
+table.cv td:first-child {
+    width: 200px;
+}
+
+p.jobtitle {
+    font-weight: bold;
+    padding: 5px 0 25px 0;
+}
+
+ul.projects, ul.skills {
+    list-style-type: disc;
+    padding: 0 0 0 25px;
+}
+
+ul.projects li, ul.skills li {
+    line-height: 1.5;
+}
+
+ul.contact-links {
+    display: block;
+    float: left;
+}
+
+ul.contact-links a {
+    border: 1px solid #6d6d6d;
+    float: left;
+    height: 60px;
+    padding: 20px 20px 0 20px;
+}
+
+ul.contact-links a:hover {
+    background: #444;
+}
+
+ul.contact-links a img {
+    float: left;
+    width: 100px;
+}
+
+ul.contact-links li {
+    float: left;
+    margin-right: 10px;
 }
