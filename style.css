@@ -59,14 +59,14 @@ table.cv th {
     border-bottom: 1px solid #313131;
     font-weight: bold;
     font-size: 1.3rem;
-    padding: 1.1rem;
+    padding: 1.1rem 0 1.1rem 0;
     text-align: left;
 }
 
 table.cv td {
     color: #e2e2e2;
     font-size: 1.1rem;
-    padding: 1rem;
+    padding: 10px 0 10px 0;
 }
 
 table.cv td:first-child {
