@@ -27,6 +27,14 @@ header img {
     width: 250px;
 }
 
+@media print
+{
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
 header nav {
     color: #fff;
 }
@@ -47,6 +55,13 @@ section.content {
     padding-left: 350px;
     padding-top: 60px;
     padding-right: 60px;
+}
+
+@media print
+{
+    section.content {
+        padding-left: 35px;
+    }
 }
 
 table.cv {
